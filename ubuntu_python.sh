@@ -1,5 +1,4 @@
 FROM ubuntu16-python2.7
-RUN apt-get update
 RUM apt-get install -y git
 RUM apt-get install python-pip
 RUM pip install django
