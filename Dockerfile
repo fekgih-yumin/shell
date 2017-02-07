@@ -1,3 +1,4 @@
 FROM daocloud.io/python:2-onbuild
-#CMD [ "python", "./your-daemon-or-script.py" ]
+WORKDIR picture_app/
+CMD [ "python", "python manage.py runserver 0.0.0.0:8001" ]
 
