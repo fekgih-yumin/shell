@@ -76,10 +76,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'picture_app',
-        'HOST': 'office.5ftech.com',
+        'HOST': '192.168.199.131',
         'USER': 'root',
         'PASSWORD': 'Bravement@163.com',
-        'PORT': '13306',
+        'PORT': '3306',
     }
 }
 
