@@ -1,4 +1,4 @@
-FROM ubuntu16-python27
+FROM ubuntu-python
 RUM sudo apt-get install -y git
 RUM sudo apt-get install python-pip
 RUM pip install django
