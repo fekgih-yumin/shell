@@ -1,6 +1,6 @@
 FROM ubuntu16-python2.7
-RUM apt-get install -y git
-RUM apt-get install python-pip
+RUM sudo apt-get install -y git
+RUM sudo apt-get install python-pip
 RUM pip install django
 
 WORKDIR /opt/
