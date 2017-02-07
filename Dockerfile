@@ -1,7 +1,7 @@
 FROM buildpack-deps:jessie
-RUM sudo apt-get install -y git
-RUM sudo apt-get install python-pip
-RUM pip install django
+RUN sudo apt-get install -y git
+RUN sudo apt-get install python-pip
+RUN pip install django
 
 WORKDIR /opt/
 RUN mkdir git
