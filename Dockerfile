@@ -1,4 +1,4 @@
-FROM Python:2.7
+FROM buildpack-deps:jessie
 RUM sudo apt-get install -y git
 RUM sudo apt-get install python-pip
 RUM pip install django
